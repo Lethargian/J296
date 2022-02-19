@@ -17,10 +17,19 @@
 Steps:
 * Create a pivot table with the following settings for ROWS, COLUMNS, and VALUES
   *  ROWS = INDUSTRY
-    *  Sort by "SUM of Amount in" "Grand total" to view the industry that contributed the most overall.
-    *  Sort by "SUM of Amount in" "D" to then see the industry that contributed the most to the Democratics. 
   *  COLUMNS = PARTY
   *  VALUES = AMOUNT "summarize by" "SUM"
+
+!['Q1-Image1', 'Pivot table settings for question 1'](/Q1-Image1.png)
+
+ *  Sort by "SUM of Amount in" "Grand total" to view the industry that contributed the most overall.
+
+!['Q1-Image2', 'Sorting for Grand Total contributions'](/Q1-Image2.png)
+
+*  Sort by "SUM of Amount in" "D" to then see the industry that contributed the most to the Democratics. 
+
+!['Q1-Image3', 'Sorting for Democratic contributions'](/Q1-Image3.png)
+
 
 
 
