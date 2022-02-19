@@ -9,7 +9,7 @@
 4. Describe one potential story from this dataset that you’d find promising if this were a project you were working on. Give it a headline. Include up to three types of sources you would call to report out the story and a few of the questions you might ask.
 5. What data might be suitable to join with this data to provide context or additional stories? Give me two examples.
 
-## ANSWER to QUESTION 1
+## 1. Which industries contributed the most to the Republican and Democratic parties? How much was contributed to each party?
 
 **_Republican/Conservative contributed the most overall with $7,514,000. All of this money went to the Republican party, with $0 contributions to the Democratic Party._**
 
@@ -32,7 +32,7 @@ Steps:
 !['Q1-Image3', 'Sorting for Democratic contributions'](/Q1-Image3.png)
 
 
-## ANSWER to QUESTION 2
+## 2. How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL?
 
 **_Misc Business contributed $3,520,000 to the Democratic Party._**
 
@@ -40,9 +40,9 @@ Steps:
 
 Steps:
 1. Create a pivot table with the following settings for ROWS, COLUMNS, and VALUES
-  *  ROWS = SECTOR
-  *  COLUMNS = PARTY
-  *  VALUES = AMOUNT "summarize by" "SUM"
+    *  ROWS = SECTOR
+    *  COLUMNS = PARTY
+    *  VALUES = AMOUNT "summarize by" "SUM"
 
 !['Q2-img1', 'Pivot table settings for question 2'](/Q2-img1.png)
 
@@ -57,3 +57,6 @@ Steps:
 !['Q2-img4', 'Results of filter in city column to view Miami Lakes'](/Q2-img4.png)
 
 
+## 3. What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it?
+
+**_  _**
