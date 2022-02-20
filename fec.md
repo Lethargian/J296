@@ -59,4 +59,27 @@ Steps:
 
 ## 3. What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it?
 
-**_  _**
+**_Philip Morris donations ($2,070,000) accounted for 68.54% of the tobacco industry's donations._**
+
+Steps:
+1. To get the _value_ that Philip Morris donated, create a pivot table with the following settings for ROWS, COLUMNS, and FILTER.
+    *  ROWS = DONOR and "sort by" "SUM of Amount" 
+    *  VALUES = AMOUNT "summarize by" "SUM"
+    *  FILTER = INDUSTRY "filter by values" only choose "tobacco"
+
+!['Q3-img1', 'Pivot table settings for question 3'](/Q3-img1.png)
+
+!['Q3-img2', 'pivot table filter setting for question 3'](/Q3-img2.png)
+
+!['Q3-img3', 'Results for question 3 value'](/Q3-img3.png)
+
+2. To get the _percentage_ that Philip Morris' donations accounted for in the tobbacco industry donations:
+    * Change VALUES to be "shown as" "%of grand total"
+
+!['Q3-img4', 'Value setting for question 3 finding percentage'](/Q3-img4.png)
+
+!['Q3-img5', 'Results for question 3 percentage'](/Q3-img5.png)
+
+
+
+
