@@ -120,5 +120,5 @@ Steps:
 ## 5. What data might be suitable to join with this data to provide context or additional stories?
 
 1. Election results per state. This information could help to map and compare the regional effects of donations. Were there overlaps between the contributions and the results? 
-2. Example 2 
+2. Campaign platform for both candidates. Do the donations match the political agendas?
 
