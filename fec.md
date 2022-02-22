@@ -81,17 +81,44 @@ Steps:
 !['Q3-img5', 'Results for question 3 percentage'](/Q3-img5.png)
 
 
-## 4. _INSET STORY TITLE_
+## 4. Clinton takes a stronghold on Unions and the Labor industry. 
 
-_description of idea_
+The labor industry accounted for 15% of all contributions over $100,000 to the democratic party, while no contributions were made to the republican party. Clinton had the overwhelming support of labor unions in the East Coast, with all labor contributions coming from four states. Labor made up over half of the contributions Clinton's campaign received from DC.
 
 #### Potential Sources
-1. _source 1_
-2. _source 2_
-3. _source 3_
+1. Communications Workers of America representative, to ask why they contributed to Democrats over Republicans, and what they think they will get from it. 
+2. Actual workers. Do they agree with the contributions? Do they have preferences over candidates?
+3. Workers from the South, or other areas that are Republican strongholds.
+4. Expert that can speak to why labor favored democratic candidates. 
+5. Policy analyst that can break down the campaign promises of the two candidates in relation to unions and labor. 
+
+Steps:
+1. Create a pivot table with the following settings for ROWS, COLUMNS, and VALUES
+    *  ROWS = SECTOR
+    *  COLUMNS = PARTY
+    *  VALUES = AMOUNT "summarize by" "% of grand total"
+
+!['Q4-img1', 'Pivot table settings for sector contributions'](/Q4-img1.png)
+
+2. Create a pivot table with the following settings for ROWS, COLUMNS, and VALUES
+    *  ROWS = STATE
+    *  COLUMNS = PARTY
+    *  VALUES = AMOUNT 
+    *  FILTER = SECTOR (only check Labor)
+
+!['Q4-img2', 'Pivot table settings for finding which states the Labor contributions came from'](/Q4-img2.png)
+
+2. Create a pivot table with the following settings for ROWS, COLUMNS, and VALUES
+    *  ROWS = STATE
+    *  COLUMNS = SECTOR
+    *  VALUES = AMOUNT (%of grand total)
+    *  FILTER = PARTY (only check D)
+    *  FILTER = STATE (only check DC)
+
+!['Q4-img3', 'Pivot table settings for finding % of DC contributions to the Democrats Labor constituted'](/Q4-img3.png)
 
 ## 5. What data might be suitable to join with this data to provide context or additional stories?
 
-1. Example 1
+1. Election results per state. This information could help to map and compare the regional effects of donations. Were there overlaps between the contributions and the results? 
 2. Example 2 
 
